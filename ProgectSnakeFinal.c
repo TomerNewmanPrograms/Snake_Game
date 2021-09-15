@@ -1,4 +1,4 @@
-﻿
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -344,11 +344,8 @@ void initialize_new_SNAKE(SNAKE snake[], int size, int x, int y, int cur_head)  
 void print_menu()              // the function prints the menu of the game
 {
 	printf("*******************************************************\n");
-	printf("* Pick Your Level, to exit press 0\n");
-	printf("* 0 -Exit\n");
-	printf("* 1 - Basic Level\n");
-	printf("* 2 - Intermidiate LEvel\n");
-	printf("* 3 - Advanced Level\n");
+	printf("* Welcome To Snake!!, to exit press 0\n");
+	printf("* $ To play the game press 1 $\n");
 	printf("*******************************************************\n");
 
 }
